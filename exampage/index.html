@@ -5,15 +5,13 @@
         <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
         
         <style type="text/css">
-        h2 {text-align:center}
-        p.margin {margin: 0.5cm 5cm 0.5cm 5cm}
-        li {margin: 0cm 5cm 0.25cm 5cm}
-        button {margin: 0cm 5cm 1cm 5cm}
-        input.gr {color:darkgrey}
-        table.one
-        {
-          table-layout:automatic
+        body{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 150px;
+            padding-right: 150px;
         }
+        h2 {text-align:center}
         </style>
     </head>
     <body>
@@ -22,47 +20,53 @@
 <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
 
 
-
-        
-  <h2>统一建模语言理论测试</h2>
+<h2>统一建模语言理论测试</h2>
+<div class="container">       
+  
   <!--考试信息-->
 
- <!--
- <div class="row">
-  
-  <div class="col-md-5">考试科目：统一建模语言</div>
-  <div class="col-md-5">考试时间：100分钟</div>
-  <div class="col-md-2">得分：100</div>
-
+ <div class="row"> 
+    <div class="col-md-4">考试科目：统一建模语言</div>
+    <div class="col-md-4">考试时间：100分钟</div>
+    <div class="col-md-2">得分：100</div>
 </div>
-<div class="row">
-  
-  <div class="col-md-5">班级：<input class="gr" type="text" value="1班"></div>
-  <div class="col-md-5">
+<div class="row"> 
+  <div class="col-md-4">
+    <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">班级</span>
+              <input type="text" class="form-control" placeholder="1班" aria-describedby="sizing-addon3">
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-4">
       <div class="row">
           <div class="col-lg-6">
             <div class="input-group">
                 <span class="input-group-addon" id="basic-addon1">学号</span>
-              <input type="text" class="form-control" placeholder="001" aria-describedby="sizing-addon3">
+                <input type="text" class="form-control" placeholder="001" aria-describedby="sizing-addon3">
             </div>
           </div>
         </div>
   </div>
   <div class="col-md-2">
-      <div class="rows">
-          <div class="col-lg-7">
-            <div class="input-group">
-              <span class="input-group-addon" id="basic-addon1">姓名</span>
-              <input type="text" class="form-control" placeholder="小明" aria-describedby="sizing-addon3">
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">姓名</span>
+          <input type="text" class="form-control" placeholder="小明" aria-describedby="sizing-addon3">
         </div>
+      </div>
+    </div>
   </div>
-
+</div> 
 </div>
--->
-  <!--考试信息-->
-  <div>
+
+<!--考试信息-->
+<!--
+  <div class="container">
   <p class="margin"><table class="one" border="0" width="900">
       <tr>
         <td width="35%">考试科目：统一建模语言</td>
@@ -106,7 +110,7 @@
   </table>
 </p>
 </div>
-
+-->
 
 <!--填空题-->
 
